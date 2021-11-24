@@ -13,8 +13,8 @@ ReactDOM.render(
       />
       <Route path="/yalantis-test-task/employees/" element={<App />} />
       <Route
-        path="/yalantis-test-task/"
-        element={<Navigate to="/yalantis-test-task/employees/" />}
+        path="/yalantis-test-task/employees/"
+        element={<Navigate to="/yalantis-test-task/" />}
       />
     </Routes>
   </BrowserRouter>,
