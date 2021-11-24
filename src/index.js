@@ -8,7 +8,7 @@ ReactDOM.render(
     <Routes>
       <Route
         exact
-        path="/"
+        path="/yalantis-test-task/"
         element={<Navigate to="/yalantis-test-task/employees/" />}
       />
       <Route path="/yalantis-test-task/employees/" element={<App />} />
