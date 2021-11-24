@@ -7,7 +7,6 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route
-        exact
         path="/yalantis-test-task/"
         element={<Navigate to="/yalantis-test-task/employees/" />}
       />
