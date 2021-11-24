@@ -7,18 +7,18 @@ const App = () => {
   const [users, setUsers] = useState(null);
   useEffect(() => {
     async function fetchMyAPI() {
-      let response = await fetch(
-        "https://yalantis-react-school-api.yalantis.com/api/task0/users"
-      );
-      response = await response.json();
-
-      response.forEach((item) => {
-        item["selected"] = false;
-      });
       let mayNewUsers = JSON.parse(localStorage.getItem("allUsers"));
-      if (mayNewUsers === null) {
-        setUsers(response);
+      if (mayNewUsers !== null) {
+        setUsers(mayNewUsers);
       } else {
+        let response = await fetch(
+          "https://yalantis-react-school-api.yalantis.com/api/task0/users"
+        );
+        response = await response.json();
+
+        response.forEach((item) => {
+          item["selected"] = false;
+        });
         setUsers(mayNewUsers);
       }
     }
