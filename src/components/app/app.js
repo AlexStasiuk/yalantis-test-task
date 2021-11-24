@@ -10,7 +10,9 @@ const Main = () => {
       let mayNewUsers = JSON.parse(localStorage.getItem("allUsers"));
       if (mayNewUsers !== null) {
         setUsers(mayNewUsers);
+        console.log("2");
       } else {
+        console.log("1");
         let response = await fetch(
           "https://yalantis-react-school-api.yalantis.com/api/task0/users"
         );
