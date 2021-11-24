@@ -16,10 +16,6 @@ ReactDOM.render(
         path="/yalantis-test-task/"
         element={<Navigate to="/yalantis-test-task/" />}
       />
-      <Route
-        path="/employees/"
-        element={<Navigate to="/yalantis-test-task/employees1/" />}
-      />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
