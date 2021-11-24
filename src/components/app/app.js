@@ -21,7 +21,7 @@ const App = () => {
         response.forEach((item) => {
           item["selected"] = false;
         });
-        setUsers(mayNewUsers);
+        setUsers(response);
       }
     }
     fetchMyAPI();
