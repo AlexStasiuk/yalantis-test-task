@@ -3,7 +3,7 @@ import "./app.css";
 import LettersEmployeeList from "../letters-employee-list/letters-employee-list";
 import BirthdaysBlock from "../birthdays-block/birthdays-block";
 
-const App = () => {
+const Main = () => {
   const [users, setUsers] = useState(null);
   useEffect(() => {
     async function fetchMyAPI() {
@@ -52,4 +52,4 @@ const App = () => {
     </div>
   );
 };
-export default App;
+export default Main;
