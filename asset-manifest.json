@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yalantis-test-task/static/css/main.c4421bdf.chunk.css",
-    "main.js": "/yalantis-test-task/static/js/main.e2882f72.chunk.js",
-    "main.js.map": "/yalantis-test-task/static/js/main.e2882f72.chunk.js.map",
+    "main.js": "/yalantis-test-task/static/js/main.b669f28c.chunk.js",
+    "main.js.map": "/yalantis-test-task/static/js/main.b669f28c.chunk.js.map",
     "runtime-main.js": "/yalantis-test-task/static/js/runtime-main.d954d629.js",
     "runtime-main.js.map": "/yalantis-test-task/static/js/runtime-main.d954d629.js.map",
     "static/js/2.e29ffc05.chunk.js": "/yalantis-test-task/static/js/2.e29ffc05.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d954d629.js",
     "static/js/2.e29ffc05.chunk.js",
     "static/css/main.c4421bdf.chunk.css",
-    "static/js/main.e2882f72.chunk.js"
+    "static/js/main.b669f28c.chunk.js"
   ]
 }
