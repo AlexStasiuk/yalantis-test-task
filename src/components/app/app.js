@@ -16,7 +16,7 @@ const App = () => {
         item["selected"] = false;
       });
       let mayNewUsers = JSON.parse(localStorage.getItem("allUsers"));
-      if (mayNewUsers.length === 0) {
+      if (mayNewUsers === null) {
         setUsers(response);
       } else {
         setUsers(mayNewUsers);
