@@ -1,0 +1,13 @@
+.letter {
+  font-size: 1.7em;
+  padding: 50px;
+}
+.one-letter-content-wrapper {
+  width: 45%;
+}
+.letters-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

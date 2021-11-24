@@ -1,0 +1,14 @@
+.selected-username-color {
+  color: blue;
+  font-size: 1.5em;
+}
+.not-selected-username-color {
+  font-size: 1.5em;
+}
+.radiobumttons-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.user-wrapper {
+  margin-top: 50px;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+.employees-by-letter-wrapper {
+  width: 65%;
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  border-color: black;
+}
+.employees-birthdays-wrapper {
+  width: 25%;
+}
