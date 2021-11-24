@@ -8,6 +8,10 @@ ReactDOM.render(
     <Routes>
       <Route exact path="/" element={<Navigate to="/employees/" />} />
       <Route path="/employees/" element={<App />} />
+      <Route
+        path="/yalantis-test-task/"
+        element={<Navigate to="/employees/" />}
+      />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
