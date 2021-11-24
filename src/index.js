@@ -6,11 +6,15 @@ import App from "./components/app/app";
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route exact path="/" element={<Navigate to="/employees/" />} />
-      <Route path="/employees/" element={<App />} />
+      <Route
+        exact
+        path="/"
+        element={<Navigate to="/yalantis-test-task/employees/" />}
+      />
+      <Route path="/yalantis-test-task/employees/" element={<App />} />
       <Route
         path="/yalantis-test-task/"
-        element={<Navigate to="/employees/" />}
+        element={<Navigate to="/yalantis-test-task/employees/" />}
       />
     </Routes>
   </BrowserRouter>,
